@@ -15,3 +15,9 @@ Make sure you have `flow-bin` installed
 And make Babel stripping the types (in case you don't use preset-react)
 
     npm install --save-dev babel-plugin-transform-flow-strip-types
+
+## Caveats
+
+There is a known issue related to indirectly depending package `config-chaing`,
+being tracked in https://github.com/parcel-bundler/parcel/issues/1526. To avoid
+the issue, put `.*/node_modules/.*/test` to `[ignore]` section in `.flowconfig`.
