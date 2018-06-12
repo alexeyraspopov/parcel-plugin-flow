@@ -1,0 +1,9 @@
+{
+  "name": "parcel-plugin-flow-test-example",
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "flow-bin": "^0.74.0",
+    "parcel-bundler": "^1.8.1"
+  }
+}
