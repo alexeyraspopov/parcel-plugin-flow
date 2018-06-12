@@ -1,0 +1,18 @@
+{
+  "name": "parcel-plugin-flow",
+  "version": "0.1.0",
+  "main": "modules/index.js",
+  "repository": "alexeyraspopov/parcel-plugin-flow",
+  "author": "Alexey Raspopov",
+  "license": "MIT",
+  "dependencies": {
+    "cross-spawn": "^6.0.0"
+  },
+  "peerDependencies": {
+    "flow-bin": "^0.70.0",
+    "parcel-bundler": "^1.5.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.8.1"
+  }
+}
